@@ -128,3 +128,8 @@ useful for powering a future `/admin` view.
 - [ ] Submit with missing name / invalid email / past date / 0 people -> validation errors shown, no DB write
 - [ ] Try calling `POST /api/enquiry` directly (e.g. via curl) with bad data -> still rejected (server-side validation)
 - [ ] Test responsive layout at 375px / 768px / 1024px / 1440px
+
+## Live Demo
+
+- **Live URL:** https://travel-unbounded-orcin.vercel.app
+- **GitHub Repo:** https://github.com/karishma1259/travel-unbounded
