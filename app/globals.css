@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --tu-sand: #f6f1e7;
+  --tu-teal: #0e3d3e;
+  --tu-teal-dark: #082627;
+  --tu-amber: #d97b3a;
+  --tu-amber-dark: #b7622a;
+  --tu-sage: #8a9a86;
+  --tu-charcoal: #22271f;
+}
+
+@theme inline {
+  --color-sand: var(--tu-sand);
+  --color-teal: var(--tu-teal);
+  --color-teal-dark: var(--tu-teal-dark);
+  --color-amber: var(--tu-amber);
+  --color-amber-dark: var(--tu-amber-dark);
+  --color-sage: var(--tu-sage);
+  --color-charcoal: var(--tu-charcoal);
+  --font-display: "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: var(--tu-sand);
+  color: var(--tu-charcoal);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
